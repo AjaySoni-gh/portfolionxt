@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import ThemeToggle from "./theme-toggle"
+import { ThemeToggle } from './theme-toggle'
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
       <nav className='container flex max-w-3xl items-center justify-between'>
         <div>
           <Link href='/' className='font-serif text-2xl font-bold'>
-            welcome hb
+            HB
           </Link>
         </div>
 
